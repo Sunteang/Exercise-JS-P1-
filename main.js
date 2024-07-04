@@ -123,7 +123,7 @@
 // 10
 let arrNumber = [23, 13, 43, 56, 22, 33];
 
-let largestNum = 0;
+let largestNum = arrNumber[0];
 
 for (let i = 0; i < arrNumber.length; i++) {
   if (arrNumber[i] > largestNum) {
