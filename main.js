@@ -41,8 +41,6 @@
 // let employees = ["Lara", "Evee", "Simi"];
 // let salaries = [1000, 2000, 120.9];
 
-// let employeesSalary = {};
-
 // for (let i = 0; i < employees.length; i++) {
 //   console.log(employees[i] + ":" + salaries[i]);
 // }
@@ -102,19 +100,17 @@
 // console.log("Sum: ", sumNum);
 
 // 9
-// let primeNum = [];
-
 // for (let i = 2; i <= 100; i++) {
 //   let isPrimeNum = true;
 
-//   for (let j = 2; j <= Math.sqrt(i); j++) {
+//   for (let j = 2; j < i ; j++) {
 //     if (i % j === 0) {
 //       isPrimeNum = false;
 //       break;
 //     }
 //   }
 //   if (isPrimeNum) {
-//     primeNum.push(i);
+//     console.log(i);
 //   }
 // }
 
