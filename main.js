@@ -41,11 +41,17 @@ console.log(employeesSalary);
 let employees = ["Lara", "Evee", "Simi"];
 let salaries = [1000, 2000, 120.9];
 
+<<<<<<< HEAD
 let employeesSalary = {};
 
 for (let i = 0; i < employees.length; i++) {
   console.log(employees[i] + ":" + salaries[i]);
 }
+=======
+// for (let i = 0; i < employees.length; i++) {
+//   console.log(employees[i] + ":" + salaries[i]);
+// }
+>>>>>>> d94d50fdfa5d5707c36393a863fbaf173c37da2a
 
 // 5
 for (let i = 1; i <= 10; i++) {
@@ -102,6 +108,7 @@ for (let i = 0; i < arrNum.length; i++) {
 console.log("Sum: ", sumNum);
 
 // 9
+<<<<<<< HEAD
 let primeNum = [];
 
 for (let i = 2; i <= 100; i++) {
@@ -119,11 +126,28 @@ for (let i = 2; i <= 100; i++) {
 }
 
 console.log("Prime Number: ", primeNum.join(", "));
+=======
+// for (let i = 2; i <= 100; i++) {
+//   let isPrimeNum = true;
+
+//   for (let j = 2; j < i ; j++) {
+//     if (i % j === 0) {
+//       isPrimeNum = false;
+//       break;
+//     }
+//   }
+//   if (isPrimeNum) {
+//     console.log(i);
+//   }
+// }
+
+// console.log("Prime Number: ", primeNum.join(", "));
+>>>>>>> d94d50fdfa5d5707c36393a863fbaf173c37da2a
 
 // 10
 let arrNumber = [23, 13, 43, 56, 22, 33];
 
-let largestNum = 0;
+let largestNum = arrNumber[0];
 
 for (let i = 0; i < arrNumber.length; i++) {
   if (arrNumber[i] > largestNum) {
